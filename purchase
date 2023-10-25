@@ -11,13 +11,17 @@ dataLayer.push({
  'email': 'name@traveldeal.nl',
  'user_id': '12345678', //internal ID of the user (when they are logged in)
  'coupon': 'ABCDEFG123', //discount code if used
- 'new_customer': 'true', //if this is a customer's first payment (email exists in database or not).
- 'items': [{ //the products bought
-   'item_id': 'P1_NL_2', //the product code
-   'item_name': 'Prepaid NL', //this is an example, curious to see which options are available
-   'item_category': 'Prepaid', //if it's perfect, automatic, or a (recurring) subscription
-   'price': 0.18, //price per minute audio
-   'quantity': 214 //total minutes
+ 'items': [{ //the deal(s) purchased
+   'item_id': '10513', //the id of the deal
+   'item_brand': '330437', //is nu een ID van ?
+   'item_name': 'SPECIAL! ⚡Geniet in een 4*-Van der Valk Hotel in Zaltbommel nabij Den Bosch', //name of the deal
+   'item_category': '?', //is nu het land (Nederland) dit voelt niet heel logisch
+   'item_category2': '?', //is nu Van der Valk Specials
+   'item_category3': '?', //Is nu city
+   'item_category4': '?', //Is nu provincie
+   'item_variant': '?', //Is nu de accomodatie naam
+   'price': 31.10, //prijs per persoon
+   'quantity': 1 //aantal personen (dit lijkt nu niet te kloppen in datalayer)
  }]
 });
 </script>
