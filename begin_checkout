@@ -11,7 +11,7 @@ dataLayer.push({
    'item_category3': '?', //Is nu city
    'item_category4': '?', //Is nu provincie
    'item_variant': '?', //Is nu de accomodatie naam
-   'price': 31.10, //prijs per persoon
+   'price': 31.10, //is nu prijs per persoon (zo houden of totale prijs van de deal doen incl. reserveringskosten?)
    'quantity': 1 //aantal personen (dit lijkt nu niet te kloppen in datalayer)
  }]
 });
