@@ -2,7 +2,7 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
  'event': 'begin_checkout', //when a succesful purchase takes place
- 'items': [{ //the deal(s) purchased
+ 'items': [{ //the deal(s) in checkout
    'item_id': '10513', //the id of the deal
    'item_brand': '330437', //is nu een ID van ?
    'item_name': 'SPECIAL! ⚡Geniet in een 4*-Van der Valk Hotel in Zaltbommel nabij Den Bosch', //name of the deal
