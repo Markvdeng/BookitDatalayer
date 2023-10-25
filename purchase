@@ -1,11 +1,10 @@
 <script>
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
- 'event': 'purchase', //when a prepaid top-up or payment takes place
- 'purchase_category': 'prepaid', //if it's a perfect, prepaid, or (recurring) subscription payment
+ 'event': 'purchase', //when a succesful purchase takes place
  'currency': 'EUR', //currency code of the payment
- 'transaction_id': '1234', //one of these formats: pi_3MPq2gKCFI2T2mwf1QxYl98u, AMB2022200421, adf7f00c-65af-4c17-a59f-e805eb273f51
- 'affiliation': 'Amberscript-NL', //Amberscript-country code
+ 'transaction_id': '1234', //ID / order number of the purchase
+ 'affiliation': 'Traveldeal', //name of the label
  'value': 38.00, //total of purchase
  'tax': 6.60, //total tax in purchase (often 0 I think)
  'name': 'mark test',
