@@ -5,15 +5,11 @@ dataLayer.push({
  'currency': 'EUR', //currency code of the payment
  'transaction_id': '1234', //ID / order number of the purchase
  'affiliation': 'Traveldeal', //name of the label
- 'value': 38.00, //total of purchase
- 'tax': 6.60, //total tax in purchase (often 0 I think)
+ 'value': 38.00, //total of purchase incl. tax
+ 'tax': 6.60, //total tax in purchase
  'name': 'mark test',
- 'email': 'mark@test.nl',
- 'language': 'en',
- 'country_code': 'NL',
- 'sector': 'HLT',
- 'company': 'Test',
- 'user_id': '12345678',
+ 'email': 'name@traveldeal.nl',
+ 'user_id': '12345678', //internal ID of the user (when they are logged in)
  'coupon': 'ABCDEFG123', //discount code if used
  'new_customer': 'true', //if this is a customer's first payment (email exists in database or not).
  'items': [{ //the products bought
