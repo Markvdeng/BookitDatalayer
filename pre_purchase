@@ -1,13 +1,12 @@
 <script>
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
- 'event': 'purchase', //when a succesful purchase takes place
- 'currency': 'EUR', //currency code of the payment
- 'transaction_id': '1234', //ID / order number of the purchase
+ 'event': 'pre_purchase', //when a succesful pre-purchase takes place (event is now GoogleAnalyticsEvent with eventAction purchase
+ 'currency': 'EUR', //currency code of the pre-purchase
+ 'transaction_id': 'BU1192807', //ID / order number of the purchase (is now eventLabel)
  'affiliation': 'Traveldeal', //name of the label
- 'value': 38.00, //total of purchase incl. tax
+ 'value': 38.00, //total of pre-purchase incl. tax and reserveringskosten
  'tax': 6.60, //total tax in purchase
- 'name': 'mark test',
  'email': 'name@traveldeal.nl',
  'user_id': '12345678', //internal ID of the user (when they are logged in)
  'coupon': 'ABCDEFG123', //discount code if used
